@@ -145,6 +145,7 @@
                                 <rect key="frame" x="20" y="550" width="560" height="30"/>
                                 <state key="normal" title="Create New Exercise"/>
                                 <connections>
+                                    <action selector="presentNewActivityViewController" destination="1kp-xk-Tb6" eventType="touchUpInside" id="O1N-58-JGd"/>
                                     <segue destination="zOm-MO-AMl" kind="presentation" id="j6Y-CV-2dU"/>
                                 </connections>
                             </button>
@@ -356,7 +357,7 @@
         <!--Create an exercise-->
         <scene sceneID="8rl-b8-cUI">
             <objects>
-                <navigationController title="Create an exercise" automaticallyAdjustsScrollViewInsets="NO" id="zOm-MO-AMl" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="CreateExerciseInRoutineTabViewController" title="Create an exercise" automaticallyAdjustsScrollViewInsets="NO" id="zOm-MO-AMl" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="4j9-sY-hu5">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>

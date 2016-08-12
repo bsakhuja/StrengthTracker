@@ -11,8 +11,8 @@ import UIKit
 protocol CreateExerciseViewControllerDelegate: class {
     
     func createExerciseViewController(createExerciseViewController: CreateExerciseViewController, didSaveExerciseNamed name: String)
-    
 }
+
 class CreateExerciseViewController: UIViewController, UITextFieldDelegate, UINavigationControllerDelegate {
 
     // MARK: Properties

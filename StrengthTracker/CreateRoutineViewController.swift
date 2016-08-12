@@ -35,6 +35,12 @@ class CreateRoutineViewController: UIViewController, UITextFieldDelegate {
         super.didReceiveMemoryWarning()
     }
     
+    @IBAction dynamic func presentNewActivityViewController() {
+        let createExerciseInRoutineTabViewController = self.storyboard?.instantiateViewControllerWithIdentifier(String(CreateExerciseInRoutineTabViewController.self)) as! CreateExerciseInRoutineTabViewController
+        createExerciseInRoutineTabViewController.delegate = self
+        navigationController?.presentViewController(createExerciseInRoutineTabViewController, animated: true, completion: nil)
+    }
+    
     @IBAction dynamic func saveTapped(button: UIBarButtonItem) {
         
     }

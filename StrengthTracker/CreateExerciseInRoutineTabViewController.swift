@@ -11,7 +11,6 @@ import UIKit
 protocol CreateExerciseInRoutineTabViewControllerDelegate: class {
     
     func createExerciseInRoutineTabViewController(createExerciseInRoutineTabViewController: CreateExerciseInRoutineTabViewController, didSaveExerciseNamed name: String)
-    
 }
 
 class CreateExerciseInRoutineTabViewController: UIViewController, UITextFieldDelegate, UINavigationControllerDelegate {
@@ -25,7 +24,6 @@ class CreateExerciseInRoutineTabViewController: UIViewController, UITextFieldDel
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        saveButton.target = self
     }
     
     override func didReceiveMemoryWarning() {
@@ -43,5 +41,6 @@ class CreateExerciseInRoutineTabViewController: UIViewController, UITextFieldDel
     @IBAction func cancel(sender: UIBarButtonItem) {
         dismissViewControllerAnimated(true, completion: nil)
     }
+    
 }
 
