@@ -13,6 +13,16 @@
 		06ACCBB91D4C02C900F2DB30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06ACCBB81D4C02C900F2DB30 /* Assets.xcassets */; };
 		06ACCBBC1D4C02C900F2DB30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06ACCBBA1D4C02C900F2DB30 /* LaunchScreen.storyboard */; };
 		06ACCBC71D4C02C900F2DB30 /* StrengthTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ACCBC61D4C02C900F2DB30 /* StrengthTrackerTests.swift */; };
+		06ACCBD21D4C049000F2DB30 /* CreateExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ACCBD11D4C049000F2DB30 /* CreateExerciseViewController.swift */; };
+		06ACCBD41D4C079E00F2DB30 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ACCBD31D4C079E00F2DB30 /* Exercise.swift */; };
+		06ACCBD51D4C07AC00F2DB30 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ACCBD31D4C079E00F2DB30 /* Exercise.swift */; };
+		06ACCBD71D4C0B3C00F2DB30 /* ExerciseListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ACCBD61D4C0B3C00F2DB30 /* ExerciseListTableViewController.swift */; };
+		06ACCBD91D4C144700F2DB30 /* ExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ACCBD81D4C144700F2DB30 /* ExerciseTableViewCell.swift */; };
+		06F9CF0E1D552B4200FAEE1C /* Routine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F9CF0D1D552B4200FAEE1C /* Routine.swift */; };
+		06F9CF101D552B9100FAEE1C /* RoutineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F9CF0F1D552B9100FAEE1C /* RoutineTableViewCell.swift */; };
+		06F9CF121D552BEE00FAEE1C /* CreateRoutineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F9CF111D552BEE00FAEE1C /* CreateRoutineViewController.swift */; };
+		06F9CF171D552E5600FAEE1C /* RoutineListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F9CF161D552E5600FAEE1C /* RoutineListTableViewController.swift */; };
+		06F9CF191D56A08E00FAEE1C /* CreateExerciseInRoutineTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F9CF181D56A08E00FAEE1C /* CreateExerciseInRoutineTabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,15 @@
 		06ACCBC21D4C02C900F2DB30 /* StrengthTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrengthTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06ACCBC61D4C02C900F2DB30 /* StrengthTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrengthTrackerTests.swift; sourceTree = "<group>"; };
 		06ACCBC81D4C02C900F2DB30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06ACCBD11D4C049000F2DB30 /* CreateExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateExerciseViewController.swift; sourceTree = "<group>"; };
+		06ACCBD31D4C079E00F2DB30 /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		06ACCBD61D4C0B3C00F2DB30 /* ExerciseListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseListTableViewController.swift; sourceTree = "<group>"; };
+		06ACCBD81D4C144700F2DB30 /* ExerciseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseTableViewCell.swift; sourceTree = "<group>"; };
+		06F9CF0D1D552B4200FAEE1C /* Routine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Routine.swift; sourceTree = "<group>"; };
+		06F9CF0F1D552B9100FAEE1C /* RoutineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutineTableViewCell.swift; sourceTree = "<group>"; };
+		06F9CF111D552BEE00FAEE1C /* CreateRoutineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateRoutineViewController.swift; sourceTree = "<group>"; };
+		06F9CF161D552E5600FAEE1C /* RoutineListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutineListTableViewController.swift; sourceTree = "<group>"; };
+		06F9CF181D56A08E00FAEE1C /* CreateExerciseInRoutineTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateExerciseInRoutineTabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +96,11 @@
 		06ACCBB01D4C02C900F2DB30 /* StrengthTracker */ = {
 			isa = PBXGroup;
 			children = (
+				06ACCBB51D4C02C900F2DB30 /* Main.storyboard */,
 				06ACCBB11D4C02C900F2DB30 /* AppDelegate.swift */,
 				06ACCBB31D4C02C900F2DB30 /* ViewController.swift */,
-				06ACCBB51D4C02C900F2DB30 /* Main.storyboard */,
+				06F9CF151D552C1F00FAEE1C /* Exercise Tab */,
+				06F9CF141D552C0F00FAEE1C /* Routine Tab */,
 				06ACCBB81D4C02C900F2DB30 /* Assets.xcassets */,
 				06ACCBBA1D4C02C900F2DB30 /* LaunchScreen.storyboard */,
 				06ACCBBD1D4C02C900F2DB30 /* Info.plist */,
@@ -94,6 +115,29 @@
 				06ACCBC81D4C02C900F2DB30 /* Info.plist */,
 			);
 			path = StrengthTrackerTests;
+			sourceTree = "<group>";
+		};
+		06F9CF141D552C0F00FAEE1C /* Routine Tab */ = {
+			isa = PBXGroup;
+			children = (
+				06F9CF0D1D552B4200FAEE1C /* Routine.swift */,
+				06F9CF111D552BEE00FAEE1C /* CreateRoutineViewController.swift */,
+				06F9CF181D56A08E00FAEE1C /* CreateExerciseInRoutineTabViewController.swift */,
+				06F9CF161D552E5600FAEE1C /* RoutineListTableViewController.swift */,
+				06F9CF0F1D552B9100FAEE1C /* RoutineTableViewCell.swift */,
+			);
+			name = "Routine Tab";
+			sourceTree = "<group>";
+		};
+		06F9CF151D552C1F00FAEE1C /* Exercise Tab */ = {
+			isa = PBXGroup;
+			children = (
+				06ACCBD31D4C079E00F2DB30 /* Exercise.swift */,
+				06ACCBD11D4C049000F2DB30 /* CreateExerciseViewController.swift */,
+				06ACCBD61D4C0B3C00F2DB30 /* ExerciseListTableViewController.swift */,
+				06ACCBD81D4C144700F2DB30 /* ExerciseTableViewCell.swift */,
+			);
+			name = "Exercise Tab";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +241,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06ACCBD71D4C0B3C00F2DB30 /* ExerciseListTableViewController.swift in Sources */,
 				06ACCBB41D4C02C900F2DB30 /* ViewController.swift in Sources */,
+				06F9CF0E1D552B4200FAEE1C /* Routine.swift in Sources */,
+				06F9CF191D56A08E00FAEE1C /* CreateExerciseInRoutineTabViewController.swift in Sources */,
+				06F9CF101D552B9100FAEE1C /* RoutineTableViewCell.swift in Sources */,
+				06F9CF121D552BEE00FAEE1C /* CreateRoutineViewController.swift in Sources */,
+				06F9CF171D552E5600FAEE1C /* RoutineListTableViewController.swift in Sources */,
+				06ACCBD41D4C079E00F2DB30 /* Exercise.swift in Sources */,
+				06ACCBD91D4C144700F2DB30 /* ExerciseTableViewCell.swift in Sources */,
+				06ACCBD21D4C049000F2DB30 /* CreateExerciseViewController.swift in Sources */,
 				06ACCBB21D4C02C900F2DB30 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06ACCBC71D4C02C900F2DB30 /* StrengthTrackerTests.swift in Sources */,
+				06ACCBD51D4C07AC00F2DB30 /* Exercise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +444,7 @@
 				06ACCBCD1D4C02C900F2DB30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06ACCBCE1D4C02C900F2DB30 /* Build configuration list for PBXNativeTarget "StrengthTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +453,7 @@
 				06ACCBD01D4C02C900F2DB30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
